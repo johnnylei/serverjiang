@@ -1,0 +1,33 @@
+{
+  "name": "johnnylei/serverjiang",
+  "description": "server jiang message notification",
+  "keywords": [
+    "yii2",
+    "quill"
+  ],
+  "homepage": "https://github.com/johnnylei/serverjiang.git",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "support": {
+    "source": "https://github.com/johnnylei/serverjiang.git"
+  },
+  "authors": [
+    {
+      "name": "johnny Lei",
+      "email": "leiyuqing_jing@163.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": ">=2.0.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "johnnylei\\serverjiang\\": ""
+    }
+  },
+  "config": {
+    "process-timeout": 1800
+  }
+}
