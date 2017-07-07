@@ -13,13 +13,6 @@ class LogTarget extends Target
 {
     public $url;
 
-    public function init()
-    {
-        if(empty($this->url) || !is_string($this->url)) {
-            throw new Exception('invalid key');
-        }
-    }
-
     public function export()
     {
         $message = current(current($this->messages));
